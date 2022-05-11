@@ -1,0 +1,114 @@
+/* Page body styles */
+body {
+    margin:0; /* Remove the default page margin */
+}
+
+/* General styles that apply to everything */
+* {
+    font-family: Times New Roman, serif;
+    line-height:1.5em;
+}
+a {
+    color:#5b6f90; /* Link color */
+}
+a:hover {
+    color:#000000; /* Hovered link color */
+}
+
+
+
+/* Responsive images */
+figure {
+    text-align:center;
+    margin:.5rem 0;
+    padding:0;
+}
+figure svg,
+figure img {
+    max-width:100%;
+    height:auto;
+   text-align:center;
+}
+
+/* Header */
+.header {
+    border-bottom:4px solid #5b6f90;
+    background:#28426b;
+    padding-top:1rem;
+    text-align:center;
+}
+.header figure {
+    margin:0;
+    padding:0;
+  
+}
+.header figure img,
+.header figure svg {
+    display:inline-block;
+
+}
+
+/* Horizontal menu links used in the header and footer */
+.menu-links {
+    list-style:none;
+    margin:0;
+    padding:0;
+    color: #ffffff;
+}
+.menu-links li {
+    display:inline-block;
+  font-family: Arial, sans-serif;
+  text-align: center;
+    color: #ffffff;
+}
+.menu-links a {
+    padding:.5em;
+  font-family: Arial, sans-serif;
+    white-space:nowrap;
+    text-align: center;
+     color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.menu-links a:hover {
+    background-color: #5b6f90;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Main Content Column */
+.main-content {
+    background:#ffffff;
+}
+
+/* Left Sidebar Column */
+.left-sidebar {
+    background:#e6e6e6;
+}
+
+/* Right Sidebar Column */
+.right-sidebar {
+    background:#f2f2f2;
+}
+
+/* Footer */
+.footer {
+    text-align:center;
+    border-top:4px solid #5b6f90;
+  padding: 0;
+  margin: 0;
+    background:#28426b;
+    color: #ffffff;
+}
+
+.footer a {
+     color: #ffffff;
+}
+
+.footer a:hover {
+     color: #5b6f90;
+}
